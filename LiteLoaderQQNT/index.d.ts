@@ -3,7 +3,7 @@ import { QQNTPackage } from './packages/qqnt';
 import { Platforms } from './others';
 import PluginManifest from './plugin_manifest';
 
-/// <reference path="./electron.d.ts" />
+/// <reference path="electron.d.ts" />
 
 /** @type 路径, 没什么好说的 */
 type Paths = {
@@ -88,8 +88,8 @@ interface LiteLoaderMain extends LiteLoader {
 	}
 }
 
-interface LiteLoaderRenderer extends LiteLoader {
-	/** @prop 渲染进程 API */
+interface LiteLoaderPreload extends LiteLoader {
+	/** @prop 渲染/预载进程 API */
 	api: {
 		config: {
 			/** @method 获取插件配置 */
@@ -112,4 +112,4 @@ interface LiteLoaderRenderer extends LiteLoader {
 	}
 }
 
-export type { LiteLoaderMain, LiteLoaderRenderer }
+export type { LiteLoaderMain, LiteLoaderPreload }
