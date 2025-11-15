@@ -3,6 +3,8 @@ import { QQNTPackage } from './packages/qqnt';
 import { Platforms } from './others';
 import PluginManifest from './plugin_manifest';
 
+/// <reference path="./electron.d.ts" />
+
 /** @type 路径, 没什么好说的 */
 type Paths = {
 	root: string;
