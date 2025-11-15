@@ -12,6 +12,8 @@ type PluginManifest = {
 	name: string,
 	/** @prop 内部标识符 */
 	slug: string,
+	/** @prop 启用主进程 ESM (实验性) */
+	esm?: boolean,
 	/** @prop 描述 */
 	description?: string,
 	/** @prop 版本 */

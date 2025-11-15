@@ -17,7 +17,9 @@
     "directory": "LiteLoaderQQNT"
   },
   "types": "index.d.ts",
+  "main": "index.d.ts",
   "exports": {
+    ".": "./index.d.ts",
     "./jsconfig": "./jsconfig.json"
   }
 }

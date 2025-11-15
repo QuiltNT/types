@@ -1,4 +1,4 @@
-import { Platforms, Archs } from './others';
+import { Platforms, Archs } from '../others';
 
 type QQNTPackage = {
 	name: string,
