@@ -1,4 +1,4 @@
-import { LiteLoaderMain } from './index';
+import { LiteLoaderMain } from '../index';
 
 declare global {
 	const LiteLoader: LiteLoaderMain;

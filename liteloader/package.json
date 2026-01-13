@@ -1,0 +1,29 @@
+{
+  "name": "@llqqntuno/liteloader-types",
+  "version": "1.4.0",
+  "description": "The unofficial TypeScript definitions of LiteLoaderQQNT",
+  "author": {
+    "name": "QuiltNT",
+    "url": "https://github.com/QuiltNT"
+  },
+  "contributors": [
+    {
+      "name": "晚梦",
+      "url": "https://about.latedream.cn"
+    }
+  ],
+  "peerDependencies": {
+    "@types/node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuiltNT/types.git",
+    "directory": "liteloader"
+  },
+  "types": "index.d.ts",
+  "exports": {
+    ".": "./index.d.ts",
+    "./main": "./defined/main.d.ts",
+    "./preload": "./defined/preload.d.ts"
+  }
+}
