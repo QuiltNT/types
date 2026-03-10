@@ -1,0 +1,39 @@
+{
+  "name": "@llqqntuno/liteloader-web-components-types",
+  "version": "1.4.0",
+  "description": "the unofficial typescript definitions of liteloaderqqnt web components",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": "./src/index.d.ts",
+    "./vue": "./src/vue.d.ts",
+    "./jsx": "./src/jsx.d.ts",
+    "./vue-conf": {
+      "import": "./src/vueConfig.mjs",
+      "types": "./src/vueConfig.d.ts",
+      "require": "./src/vueConfig.cjs"
+    }
+  },
+  "author": {
+    "name": "QuiltNT",
+    "url": "https://github.com/QuiltNT"
+  },
+  "contributors": [
+    {
+      "name": "晚梦",
+      "url": "https://about.latedream.cn"
+    }
+  ],
+  "dependencies": {
+    "typescript": "^5"
+  },
+  "optionalDependencies": {
+    "vue": "^3"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuiltNT/types.git",
+    "directory": "liteloader-web-components"
+  },
+  "homepage": "https://liteloaderqqnt.github.io/docs/web-components.html"
+}
